@@ -1,0 +1,42 @@
+
+#king{
+    margin-top: 50px;
+    color:lightcoral;
+    font-size: 30px;
+    font-family: monospace;
+}
+#stimg
+{
+    margin-top: 20px;
+    height: 400px;
+    width: 700px;
+    border-style: ridge;
+
+}
+.bg
+{
+    background-image: url("hub.jpg");
+    color: white;
+}
+#description
+{
+    color: white;
+    font-family: cursive;
+}
+
+#king1{
+    margin-top: 50px;
+    color:rgb(60, 204, 4);
+    font-size: 30px;
+    font-family: monospace;
+}
+#im1
+{
+    
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+#input
+{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+<html>
+    <head>
+        
+        <title>NASA'S MISSIONS LIST</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        </head>
+        <body class="bg">
+            <nav class="navbar-inverse m">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                        <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                              </div>
+                    <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="nav navbar-nav">
+                    <li class="links"><a href="#description">HOME PAGE</a></li>
+                         <li class="links"><a href="#list">LIST PAGE</a></li>
+                         <li class="links"><a href="#suggest">SUGGESTION PAGE</a></li>
+                    </ul>
+                    </div>
+                </nav>
+                <center>
+                <section id="description">
+                    <img id="stimg" src="https://cdn.mos.cms.futurecdn.net/n8WULCujSDjJBg8cT8inLf.jpg">
+                    <h1>NATIONAL AERONAUTICS AND SPACE ADMINISTRATION</h1>
+                </section>
+
+                <section id="list">
+                   <button  onclick="getmenu()" class="btn btn-primary">click</button>
+                    <div id="king">   
+                    </div>
+
+                </section>
+                </center>
+
+                <section id="suggest">
+                    
+                        <div>
+                    <input type="text" placeholder="suggest us a mission" id="input" class="btn btn-warning">
+                    <br>
+                    <button onclick="add_top()"  class="btn btn-success">ENTER YOUR SUGGESTION</button>
+                    <button onclick="add_item()"  class="btn btn-danger">VIEW MISSIONS</button>
+                </div>
+                    <div id="king1">
+                    </div>
+                    
+                </section>
+        </body>
+</html>
